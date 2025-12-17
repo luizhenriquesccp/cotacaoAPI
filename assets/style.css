@@ -1,0 +1,32 @@
+main {
+  font-family: Arial;
+  background: #f1f1f1;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0002;
+  margin-top: 30px;
+  margin-bottom: 30vh;
+}
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+select {
+  cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 196, 0, 0.658);
+}
